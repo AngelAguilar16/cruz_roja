@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <form action="server.php" method="POST">
+        <h2>Necesitamos un poco de información</h2>
+        <div class="ques">
+            <p>¿De qué región eres?</p>
+            <select name="region" id="answer">
+                <option value="Tapeixtles">Tapeixtles</option>
+                <option value="Salagua">Salagua</option>
+                <option value="Naranjo">Naranjo</option>
+                <option value="El Colomo">El Colomo</option>
+                <option value="Miramar">Miramar</option>
+                <option value="Valle de las Garzas">Valle de las Garzas</option>
+                <option value="Brisas">Brisas</option>
+                <option value="Santiago">Santiago</option>
+                <option value="Manzanillo">Manzanillo</option>
+                <option value="Nunguno">Ninguno</option>
+            </select>
+        </div>
+        <div class="ques">
+            <p>¿Cuál es tu ocupación? (breve decripción)</p>
+            <input type="text" name="ocu" id="answer">
+        </div>
+    </form>
+</body>
+</html>

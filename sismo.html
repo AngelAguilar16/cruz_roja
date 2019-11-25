@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sismo</title>
+</head>
+<body>
+    <form action="send_ans_sis.php" method="POST">
+        <h2>Preguntas sobre sismos</h1>
+        <div class="ques">
+            <p>1. ¿Qué se debe de hacer ante un sismo?</p>
+            <input type="radio" class="answer" name="p11" value="1"> Tomar pertenencias importantes<br>
+            <input type="radio" class="answer" name="p11" value="2"> Resguardar pertenencias<br>
+            <input type="radio" class="answer" name="p11" value="3"> Desalojar<br>
+            <input type="radio" class="answer" name="p11" value="4"> No sé<br>
+            <!--<input type="submit" value="Mandar respuesta">-->
+        </div>
+        <div class="ques">
+            <p>2. ¿Qué necesito saber para prevenir emergencias?</p>
+            <input type="radio" name="p12" value="1"> Informarme sobre el plan de emergencia<br>
+            <input type="radio" name="p12" value="2"> Instrucciones sobre los procedimientos de evacuacion<br>
+            <input type="radio" name="p12" value="3"> Conocer las señalizaciones pertinentes<br>
+            <input type="radio" name="p12" value="4"> Todas las anteriores<br>   
+            <!--<input type="submit" value="Mandar respuesta">-->
+        </div>
+        <div class="ques">
+            <p>3. (Durante el sismo) ¿Qué se debe tomar en cuenta?</p>
+            <input type="radio" name="p13" value="1"> Guardar siempre la calma, no corro, no grito, no empujo<br>
+            <input type="radio" name="p13" value="2"> Verificar que los objetos materiales esten a salvo y bien asegurados<br>
+            <input type="radio" name="p13" value="3"> Buscar los ascensores más cercanos para evacuar de la forma mas veloz posible<br>
+            <input type="radio" name="p13" value="4"> Desconectar gas, luz y agua antes de desalojar<br>
+            <!--<input type="submit" value="Mandar respuesta">-->
+        </div>
+        <div class="ques">
+            <p>4. (Durante el sismo) Las personas más expuestas al riesgo son los adultos con problemas físicos, niños y embarazadas</p>
+            <input type="radio" name="p14" value="1"> Verdadero<br>
+            <input type="radio" name="p14" value="2"> Falso<br>
+            <!--<input type="submit" value="Mandar respuesta">-->
+        </div>
+        <div class="ques">
+            <p>5. Dado que un sismo dura en promedio 45 segundos, no vale la pena que desalojen pisos superiores, pues cuando lleguen abajo ya acabo el sismo y habrán corrido el riesgo de caerse y lastimarse</p>
+            <input type="radio" name="p15" value="1">Verdadero<br>
+            <input type="radio" name="p15" value="2">Falso<br>
+            <!--<input type="submit" value="Mandar respuesta">-->
+        </div>
+        <div class="ques">
+            <p>6. (Durante el sismo) Si no es posible acceder a la zona de seguridad previamente establecida, puede usar escritorios o mesas para protegerse</p>
+            <input type="radio" name="p16" value="1"> Verdadero<br>
+            <input type="radio" name="p16" value="2"> Falso<br>
+            <!--<input type="submit" value="Mandar respuesta">-->
+        </div>
+        <div class="ques">
+            <p>7. (Después de el sismo) Debo mantener suspendida la corriente eléctrica, el agua y el gas hasta nuevo aviso</p>
+            <input type="radio" name="p17" value="1"> Verdadero<br>
+            <input type="radio" name="p17" value="2"> Falso<br>
+            <!--<input type="submit" value="Mandar respuesta">-->
+        </div>
+        <div class="ques">
+            <p>8. (Después de el sismo) Si encuentro a alguien herido debo llevarlo con los miembros de emergencias</p>
+            <input type="radio" name="p18" value="1">Verdadero<br>
+            <input type="radio" name="p18" value="2">Falso<br>
+            <!--<input type="submit" value="Mandar respuesta">-->
+        </div>
+        <div class="ques">
+            <p>9. (Después de el sismo) Si encuentro a alguien atrapado debo intentar liberarlo lo antes posible</p>
+            <input type="radio" name="p19" value="1"> Verdadero<br>
+            <input type="radio" name="p19" value="2"> Falso<br>
+            <!--<input type="submit" value="Mandar respuesta">-->
+        </div>
+        <div class="ques">
+            <p>10. (Después de el sismo) Hay que evitar tocar las líneas de energía caídas u objetos que se encuentren en contacto con dichos cables</p>
+            <input type="radio" name="p20" value="1">Verdadero<br>
+            <input type="radio" name="p20" value="2">Falso<br>
+            <!--<input type="submit" value="Mandar respuesta">-->
+        </div>
+
+        <input type="submit" value="Enviar respuestas" id="resp1">
+    </form>
+</body>
+</html>

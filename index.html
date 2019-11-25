@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Main</title>
+</head>
+<body>
+    <h1>Bienvenido a la encuesta de conocimientos de supervivencia!</h1>
+    <p>Esta encuesta esta planeada para apoyar a un conteo demografico acerca de que tan preparada esta la gente y asi poder llevar
+    una campaña acorde a las necesidades de la region.</p>
+
+    <form action="server.php" method="POST">
+        <div class="ques">
+            <h2>Regalanos un poco de informacion</h1>
+            <label for="ocupacion" id="oc">Ingresa tu ocupación: </label><br><br>
+            <input type="text" name="ocupacion" id="" required><br><br>
+            <p>Ingresa la región en la que habitas</p>
+            <select name="vivienda" required>
+                <option value="">Selecciona tu region</option> 
+                <option value="Tapeixtles">Tapeixtles</option>
+                <option value="Salagua">Salagua</option>
+                <option value="Naranjo">Naranjo</option>
+                <option value="El Colomo">El Colomo</option>
+                <option value="Miramar">Miramar</option>
+                <option value="Valle de las Garzas">Valle de las Garzas</option>
+                <option value="Brisas">Brisas</option>
+                <option value="Santiago">Santiago</option>
+                <option value="Manzanillo">Manzanillo</option>
+            </select>              
+            <br><br>
+            <!--<input type="submit" value="Mandar respuesta">-->
+            <input type="submit" value="Iniciar encuesta" id="resp">
+        </div>
+    </form>
+    <img src="img/logo.jpg" alt="" id="logoCR">
+</body>
+</html>
