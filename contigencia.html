@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
-    <title>Cotingencia</title>
+    <title>Contingencia</title>
 </head>
 <body>
     <form action="send_ans_con.php" method="POST">
         <h2>Preguntas sobre contingencia</h1>
         <div class="ques">
-            <p>1. ¿En dónde se deben almacenar suministros para una emergencia?</p>
-            <input type="radio" class="answer" name="p1" value="1"> Casa y auto<br>
-            <input type="radio" class="answer" name="p1" value="2"> Trabajo y otras bodegas<br>
-            <input type="radio" class="answer" name="p1" value="3"> Jardin <br>
-            <input type="radio" class="answer" name="p1" value="4"> No sé <br>
+            <p id="pregunta">1. ¿En dónde se deben almacenar suministros para una emergencia?</p>
+            <input type="radio" name="p1" value="1"> Casa y auto<br>
+            <input type="radio" name="p1" value="2"> Trabajo y otras bodegas<br>
+            <input type="radio" name="p1" value="3"> Jardin <br>
+            <input type="radio" name="p1" value="4"> No sé <br>
             <!--<input type="submit" value="Mandar respuesta">-->
         </div>
         <div class="ques">
-            <p>2. ¿Dónde deben estar almacenados los números de teléfono en caso de emergencia?</p>
+            <p id="pregunta">2. ¿Dónde deben estar almacenados los números de teléfono en caso de emergencia?</p>
             <input type="radio" name="p2" value="1"> Telefono de padres<br>
             <input type="radio" name="p2" value="2"> Anotados en el refrigerador<br>
             <input type="radio" name="p2" value="3"> Anotados en los telefonos de los niños<br>
@@ -28,7 +28,7 @@
             <!--<input type="submit" value="Mandar respuesta">-->
         </div>
         <div class="ques">
-            <p>3. ¿Además de en tu hogar en dánde mas puedes refugiarte ante un (Sismo, inundación y tormentas tropicales)?</p>
+            <p id="pregunta">3. ¿Además de en tu hogar en dánde mas puedes refugiarte ante un (Sismo, inundación y tormentas tropicales)?</p>
             <input type="radio" name="p3" value="1"> Casa de vecinos y otros familiares<br>
             <input type="radio" name="p3" value="2"> Lugares designados como refugios por las autoridades<br>
             <input type="radio" name="p3" value="3"> Centros comerciales<br>

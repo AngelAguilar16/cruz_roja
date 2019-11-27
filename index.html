@@ -8,14 +8,14 @@
 </head>
 <body>
     <h1>Bienvenido a la encuesta de conocimientos de supervivencia!</h1>
-    <p>Esta encuesta esta planeada para apoyar a un conteo demografico acerca de que tan preparada esta la gente y asi poder llevar
+    <p id="basicI">Esta encuesta esta planeada para apoyar a un conteo demografico acerca de que tan preparada esta la gente y asi poder llevar
     una campaña acorde a las necesidades de la region.</p>
 
     <form action="server.php" method="POST">
         <div class="ques">
             <h2>Regalanos un poco de informacion</h1>
             <label for="ocupacion" id="oc">Ingresa tu ocupación: </label><br><br>
-            <input type="text" name="ocupacion" id="" required><br><br>
+            <input type="text" name="ocupacion" id="" placeholder="Ej. Licenciado, Estudiante, Ama de casa" required><br><br>
             <p>Ingresa la región en la que habitas</p>
             <select name="vivienda" required>
                 <option value="">Selecciona tu region</option> 

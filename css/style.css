@@ -6,11 +6,16 @@ body{
 }
 
 #menuEnc{
-    background: red;
+    background: white;
 }
 
 h1{
     margin-top: 5%;
+}
+
+#basicI{
+    margin: 0 auto;
+    width: 60%;
 }
 
 a{
@@ -28,17 +33,18 @@ a{
 
 #menu{
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 8%;
     height: 400px;
     width: 90%;
     background: white;
 }
 
 .aBtn{
-    border: 1px black solid;
     color: white;
     width: 300px;
     height: 300px;
+    border: 0;
+    border-radius: 20px;
 }
 
 #a1, #a2, #a3{
@@ -46,9 +52,6 @@ a{
     margin-left: 1%;
 }
 
-label{
-    color: black;
-}
 
 #oc{
     color: white;
@@ -56,19 +59,19 @@ label{
 
 #a1{
     margin-top: 3%;
-    background: url("../img/contingencia.png");
+    background: url("../img/ContingenciaP.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #a2{
-    background: url("../img/sismo.png");
+    background: url("../img/SismoP.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #a3{
-    background: url("../img/incendio.png");
+    background: url("../img/IncendioP.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -77,14 +80,33 @@ label{
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 2%;
-    background: rgba(249, 10, 29, .8);
+    background: #FF3A3A;
     color: white;
     width: 80%;
+}
+
+#pregunta{
+    padding-top: 2%;
+    margin-left: 3%;
 }
 
 #resp1{
     margin-top: 5%;
     margin-bottom: 5%;
+    height: 30px;
+    width: 150px;
+    border: 0;
+    border-radius: 100px;
+    transition: 0.8s;
+    background: white;
+    color: black;
+}
+
+#resp1:hover{
+    color: white;
+    background: rgb(255, 107, 107);
+    transition: 0.6s;
+    transform: scale(1.1);
 }
 
 #resp{
@@ -100,7 +122,25 @@ label{
 
 #resp:hover{
     color: white;
-    background: red;
+    background: rgb(255, 107, 107);
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+#btnBack{
+    height: 30px;
+    width: 150px;
+    border: 0;
+    border-radius: 100px;
+    transition: 0.8s;
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#btnBack:hover{
+    color: white;
+    background: #FF3A3A;
     transition: 0.6s;
     transform: scale(1.1);
 }
@@ -109,4 +149,10 @@ label{
     margin-top: 3%;
     height: 50px;
     width: 125px;
+}
+
+.answer{
+    margin-top: 1%;
+    font-family: 'Lato', sans-serif;
+    color: white;
 }
