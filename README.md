@@ -1,9 +1,8 @@
 
 <h1 align="center">
   <br>
-  <img src="https://www.dl.dropboxusercontent.com/s/ng2nuwrnbicfw4q/Logo_TF.png?dl=0" alt="True False" width="200">
   <br>
-    True False
+    Encuesta Web
   <br>
 </h1>
 
